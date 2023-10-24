@@ -22,7 +22,7 @@ def pdf_analysis_mail(receiver_email, user_name, filename, userid, pdfid):
     #print("Pdf DATA Starts")
     #print(pdf_data)
     #print("PDF DATA ENDS")
-    sender_email = 'tejeshvenna@gmail.com'
+    sender_email = 'vislavathdharamsingh0@gmail.com'
     receiver_email = f'{receiver_email}'
     subject = 'PDF Analysis Report'
 
