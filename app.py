@@ -27,7 +27,6 @@ db = mysql.connector.connect(
 app.secret_key = 'hello'
 
 # Signup Page
-@app.route('/', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
         username = request.form['username']
@@ -50,7 +49,6 @@ def signup():
     return render_template('./signup.html')
 
 # Login Page
-@app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         username = request.form['username']
